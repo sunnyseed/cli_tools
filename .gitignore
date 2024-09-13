@@ -1,0 +1,126 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 环境文件
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 安装包
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# 单元测试 / 覆盖率报告
+.coverage
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 编辑器相关文件
+.vscode/
+.idea/
+*.swp
+*~
+
+# 配置文件
+*.ini
+*.log
+*.yaml
+*.yml
+*.toml
+*.cfg
+
+# MyPy 缓存
+.mypy_cache/
+
+# Pyre 缓存
+.pyre/
+
+# Pytype 缓存
+.pytype/
+
+# Cython
+cython_debug/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+/media
+/staticfiles
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# VSCode Extensions
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+develop-eggs/
+.installed.cfg
+*.egg
+*.egg-info/
+.eggs/
+lib/
+lib64/
+
+# Pyenv
+.python-version
+
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+.cache
+
+# MacOS特有文件
+.DS_Store
+
+# Windows特有文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Pylint
+pylint.log
